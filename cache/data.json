@@ -1,0 +1,57 @@
+{
+  "name": "Junaid Bashir",
+
+  
+  "headline": "☁️ Designing scalable infrastructure and AI-driven automation",
+  
+  "title": "Cloud & DevOps Engineer",
+
+  "subtitle": "Cloud Infrastructure • Platform Engineering • DevSecOps • GenAI",
+
+  "bio": [
+  "Cloud & DevOps Engineer focused on designing scalable cloud platforms, automating infrastructure, and building intelligent systems with AI.",
+
+  "My interests span Kubernetes, platform engineering, DevSecOps, and AI-powered automation that simplifies operations and improves reliability."
+],
+"github_title": "📈 GitHub Insights",
+
+   "typing": [
+    "🤖 AI-Powered DevOps Automation",
+    "☁️ Cloud Infrastructure and Platform Engineering",
+    "☸️ Kubernetes and Container Orchestration",
+    "🚀 Intelligent CI/CD Pipelines",
+    "📊 AI-Driven Observability and Monitoring"
+  ],
+
+  "skills": [
+    "aws",
+    "azure",
+    "docker",
+    "kubernetes",
+    "terraform",
+    "ansible",
+    "linux",
+    "bash",
+    "githubactions",
+    "jenkins",
+    "prometheus",
+    "grafana",
+    "python"
+  ],
+"focus_title": "🎯 What I'm Building",
+"focus": [
+  "Exploring AI agents for DevOps and infrastructure automation",
+  "Integrating GenAI into CI/CD and platform workflows",
+  "Managing cloud-native infrastructure with Terraform and Kubernetes",
+  "Building intelligent deployment pipelines and GitOps systems",
+  "Using AI to improve observability and incident response"
+],  
+
+
+
+  "quote": "Great platforms are automated by default, observable by design, and resilient at scale.",
+
+  "github": "junaidbashir",
+  "linkedin": "junaidbashirdar",
+  "email": "junayd.dar@example.com"
+}

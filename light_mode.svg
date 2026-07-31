@@ -1,0 +1,236 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Background -->
+
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+
+    <!-- Pipeline gradient -->
+
+    <linearGradient id="pipeline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+
+    <!-- Glow -->
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- Background -->
+
+  <rect width="1200" height="500" fill="url(#bg)"/>
+
+  <!-- Header -->
+
+  <text
+    x="40"
+    y="65"
+    fill="#0F172A"
+    font-size="38"
+    font-family="Arial"
+    font-weight="bold">
+
+    JUNAID BASHIR
+
+  </text>
+
+  <text
+    x="40"
+    y="105"
+    fill="#475569"
+    font-size="20"
+    font-family="Arial">
+
+    Cloud &amp; DevOps Engineer
+
+  </text>
+
+  <text
+    x="40"
+    y="145"
+    fill="#2563EB"
+    font-size="18"
+    font-family="Arial">
+
+    CI/CD • GitOps • Observability • Security
+
+  </text>
+
+  <!-- Microservices -->
+
+  <rect
+    x="340"
+    y="190"
+    width="140"
+    height="55"
+    rx="14"
+    fill="#FFFFFF"
+    stroke="#2563EB"
+    stroke-width="2"/>
+
+  <text
+    x="410"
+    y="223"
+    fill="#059669"
+    font-size="18"
+    text-anchor="middle"
+    font-family="Arial">
+
+    Auth
+
+  </text>
+
+  <rect
+    x="530"
+    y="190"
+    width="140"
+    height="55"
+    rx="14"
+    fill="#FFFFFF"
+    stroke="#2563EB"
+    stroke-width="2"/>
+
+  <text
+    x="600"
+    y="223"
+    fill="#059669"
+    font-size="18"
+    text-anchor="middle"
+    font-family="Arial">
+
+    Orders
+
+  </text>
+
+  <rect
+    x="720"
+    y="190"
+    width="140"
+    height="55"
+    rx="14"
+    fill="#FFFFFF"
+    stroke="#2563EB"
+    stroke-width="2"/>
+
+  <text
+    x="790"
+    y="223"
+    fill="#059669"
+    font-size="18"
+    text-anchor="middle"
+    font-family="Arial">
+
+    Payment
+
+  </text>
+
+  <!-- Connections -->
+
+  <line
+    x1="410"
+    y1="245"
+    x2="520"
+    y2="305"
+    stroke="#2563EB"
+    stroke-width="2"
+    stroke-dasharray="8 8"/>
+
+  <line
+    x1="600"
+    y1="245"
+    x2="600"
+    y2="305"
+    stroke="#2563EB"
+    stroke-width="2"
+    stroke-dasharray="8 8"/>
+
+  <line
+    x1="790"
+    y1="245"
+    x2="680"
+    y2="305"
+    stroke="#2563EB"
+    stroke-width="2"
+    stroke-dasharray="8 8"/>
+
+  <!-- Kubernetes Cluster -->
+
+  <rect
+    x="420"
+    y="305"
+    width="360"
+    height="60"
+    rx="30"
+    fill="#FFFFFF"
+    stroke="#2563EB"
+    stroke-width="2"/>
+
+  <text
+    x="600"
+    y="343"
+    fill="#2563EB"
+    font-size="24"
+    text-anchor="middle"
+    font-family="Arial">
+
+    ☸ Kubernetes Cluster ☸
+
+  </text>
+
+  <!-- Pipeline -->
+
+  <line
+    x1="150"
+    y1="430"
+    x2="1050"
+    y2="430"
+    stroke="url(#pipeline)"
+    stroke-width="4"/>
+
+  <!-- Animated dot -->
+
+  <circle
+    r="8"
+    fill="#059669"
+    filter="url(#glow)">
+
+    <animateMotion
+      dur="4s"
+      repeatCount="indefinite"
+      path="M150 430 L1050 430"/>
+
+  </circle>
+
+  <!-- Pipeline nodes -->
+
+  <circle cx="150" cy="430" r="20" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+  <text x="150" y="468" fill="#0F172A" font-size="14" text-anchor="middle">Git</text>
+
+  <circle cx="330" cy="430" r="20" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+  <text x="330" y="468" fill="#0F172A" font-size="14" text-anchor="middle">Jenkins</text>
+
+  <circle cx="510" cy="430" r="20" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+  <text x="510" y="468" fill="#0F172A" font-size="14" text-anchor="middle">Docker</text>
+
+  <circle cx="690" cy="430" r="20" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+  <text x="690" y="468" fill="#0F172A" font-size="14" text-anchor="middle">Trivy</text>
+
+  <circle cx="870" cy="430" r="20" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+  <text x="870" y="468" fill="#0F172A" font-size="14" text-anchor="middle">K8s</text>
+
+  <circle cx="1050" cy="430" r="20" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+  <text x="1050" y="468" fill="#0F172A" font-size="14" text-anchor="middle">Grafana</text>
+
+</svg>
